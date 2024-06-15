@@ -8,9 +8,6 @@ div ol a:hover{
 a:hover{
     color: red;
 } 
-div a{
-    background-color: brown;
-}
 p:first-child{
     background-color:lightgreen;
 }
@@ -20,4 +17,15 @@ section:hover p{
 }
  section p{
     display: none;
+}
+div p::first-letter {
+color: black;
+font-size: 50px;
+}
+div p{
+    background-color: lightgray;
+}
+div p::first-line{
+    font-size: 30px;
+
 }
