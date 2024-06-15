@@ -1,0 +1,23 @@
+a{
+    text-decoration: none;
+}
+div ol a:hover{
+    color: aqua;
+    background-color: brown;
+}
+a:hover{
+    color: red;
+} 
+div a{
+    background-color: brown;
+}
+p:first-child{
+    background-color:lightgreen;
+}
+section:hover p{
+    background-color: yellow;
+    display: block;
+}
+ section p{
+    display: none;
+}
